@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Stars</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/basic.css" />
+  <script type="text/javascript" src="scripts/global.js"></script>
+  <script type="text/javascript" src="scripts/about.js"></script>
+</head>
+<body id="about"> 
+    <header>
+        <img class="logoBox" src="images/logo.gif" alt="logoImage"/>
+        <!--<img class="singerBox" src="images/guitarist.gif" alt="singerImage"/>-->
+        <nav id="navigation">
+            <ul>
+                <li ><a href="index.html" class="here">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="live.html">Lives</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <div id="content">
+       <h1>About</h1>
+       <ul>
+           <li><a href="#JSBox">Jay Skript</a></li>
+           <li><a href="#TDBox">The Domsters</a></li>
+       </ul>
+
+       <!--为什么用section可以隐藏 用p不能隐藏，方式：display:none 针对块级吗？
+       实验结果显示 display 对p起作用-->
+       <section id="JSBox" style="display: none">
+           <h2>Jay Skript</h2>
+           <p>Jay Skript is going to rock your world!</p>
+        <br>
+            <p>Together with his compatriots The Domsters, Jay is set for world domination. Just you wait and see.</p>
+        <br>
+            <p>Jay Skript has been on the scene since the mid nineties. His talent hasn't always been recognized or fully appreciated. In the early days, he was often unfavorably compared to bigger, similarly-named artists. That's all in the past now.</p>
+       </section>
+
+         <p style="display: none"> 不知道能不能被隐藏哦~</p>
+    
+      <section id="TDBox">
+           <h2>The Domsters</h2>
+         The Domsters have been around, in one form or another, for almost as long. It's only in the past few years that The Domsters have settled down to their current, stable line-up. Now they're a rock-solid bunch: methodical and dependable.
+       </section>
+    </div>
+
+    
+    
+</body>
+</html>

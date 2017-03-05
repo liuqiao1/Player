@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+body{
+    margin: 1em 10%;/*1em  ??*/
+    background-image: url(../images/background.gif);
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: repeat-x;
+    max-width: 80em;
+}
+
+header{
+   
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;  
+}
+
+#index header{
+     background-image: url(../images/guitarist.gif);
+}
+
+#about header{
+     background-image: url(../images/lineup.gif);
+}
+
+#photos header{
+    background-image: url(../images/basshead.gif);
+}
+
+#contact header{
+    background-image: url(../images/drummer.gif);
+}
+
+nav{
+    background-image: url(../images/navbar.gif);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding-left: 10%;
+}
+
+nav ul{
+    width: 100%;
+    overflow: hidden;
+    border-left-width: .1em;
+    border-left-style: solid;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a{
+    display: block;
+    float: left;
+    padding: .5em 2em;
+    border-right: .1em;
+}
+
+#content{
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
+
+/*//就算是js生成也起作用*/
+#slideShow{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+/*圆角相框*/
+#frame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#intro{
+    margin: 2em 0;
+}
+
+#photos ul li{
+    list-style: none;
+    display: inline;
+    /*float: left;*/
+    /*margin: 2em;*/
+}
+
+#photos ul img{
+    width: 9em;
+    height:8em;
+    margin: 5px;
+}
+
+#content img{
+    /*widows: 400px;
+    height: 300px;*/
+    
+}
+
+#tourTable{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#tourTable td{
+    width: 16em;
+    height: 3em;
+}
+
+#tourTable thead{
+    height: 1em;
+}
+
+dl {
+  overflow: hidden;
+}
+dt {
+  float: left;
+}
+dd {
+  float: left;
+}
+
+.inputBox{
+    margin-top: 2em;
+}
+
+.inputBox label{
+    font-size: 1.5em;
+}
+
+.inputBox input{
+    height: 2em;
+}
+
+#contactForm textarea{
+   margin-left: 2em;
+}
+
+.button{
+     margin-left: 6em;
+     height: 2em;
+     width: 4em;
+     font-size: 1em;
+}
+

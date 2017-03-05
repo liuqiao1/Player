@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Stars</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="plugins/skin/layer.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/basic.css" />
+   <script type="text/javascript" src="plugins/jquery.min.js"></script>
+   <script type="text/javascript" src="plugins/layer/layer.js"></script>
+  <script type="text/javascript" src="scripts/global.js"></script>
+  <script type="text/javascript" src="scripts/contact.js"></script>
+</head>
+<body id="contact"> 
+    <header>
+        <img class="logoBox" src="images/logo.gif" alt="logoImage"/>
+        <!--<img class="singerBox" src="images/guitarist.gif" alt="singerImage"/>-->
+        <nav id="navigation">
+            <ul>
+                <li ><a href="index.html" class="here">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="live.html">Lives</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <div id="content">
+       <h1>Contact the band</h1>
+       <form id="contactForm">
+           <div class="inputBox">
+                <label for="name">Name:</label>
+                <input name="name" id="name" type="text" required="required" placeholder="please input your name"/>
+           </div>
+
+           <div class="inputBox">
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" required="required" placeholder="please input your email"/>
+           </div>
+
+           <div class="inputBox">
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Write your message here" cols="45" rows="5"></textarea>
+           </div>
+
+           <input class="submit" type="submit" value="submit"/>
+       </form>
+    </div>    
+</body>
+</html>

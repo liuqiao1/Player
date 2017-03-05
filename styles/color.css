@@ -1,0 +1,107 @@
+body{
+    color:#fb5;
+    background-color: #334;
+}
+
+a:link{
+    color: #445;
+    background-color: #eb6;
+}
+
+a:visited{
+    color: #345;
+    background-color: #eb6;
+}
+
+a:hover{
+    color: #667;
+    background-color: #fb5;
+}
+
+header{
+    color: #ec8;
+    background-color: #334;
+    border-color: #667;
+}
+
+nav{
+    color: #445;
+    background-color: #789;
+    border-color: #667;
+}
+
+#content{
+    color: #223;
+    background-color: #edc;
+    border-color: #667;
+}
+
+nav ul{
+    border-color: #99a;
+}
+
+nav a{
+    border-left: wheat solid 2px;
+    border-right: wheat solid 2px;
+}
+
+nav a:link, nav a:visited{
+    color: #99a;
+    background-color: transparent;
+    border-color: #99a;
+}
+
+nav a:hover{
+    color: #445;
+    background-color: #eb6;
+}
+
+nav a:active{
+    color: #667;
+    background-color: #ec8;
+}
+
+nav a.here:link,
+nav a.here:visited,
+nav a.here:hover,
+nav a.here:active{
+    color: #eef;
+    background-color: #799;
+}
+
+/*img{
+    border: grey solid 2px;
+}*/
+/*#tourTable td{
+    border: white solid 2px;
+    color: #223;
+    background-color: #eb6;
+}
+
+#tourTable thead{
+    color: #edc;
+    background-color: #455;
+}
+
+#tourTable tbody tr:hover{
+    background-color: grey;
+}*/
+
+
+.odd{
+    background-color: #eb6;
+}
+
+#tourTable thead tr{
+    color: #edc;
+    background-color: #455;
+}
+
+#tourTable td{
+    border: white solid 2px;
+}
+
+#tourTable tbody tr:hover{
+    background-color: grey;
+}
+
